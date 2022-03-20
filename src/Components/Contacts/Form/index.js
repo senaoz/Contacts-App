@@ -54,7 +54,7 @@ export default function Form( {addContact, contacts} ){
                    name="phone"
                    onChange={onChangeInput}
                    value={form.phone}
-                   placeholder="Phone Number" type="number" required/>
+                   placeholder="Phone Number" type="number" maxlength="10" required/>
             <input className="formInput"
                    name="email"
                    onChange={onChangeInput}

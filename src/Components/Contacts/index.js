@@ -4,8 +4,8 @@ import {useState} from "react";
 
 export default function Contacts(){
     const [contacts, setContacts] = useState([
-        {name: "Sena", surname: "OZ", phone: "5532704508", email: "tazeyta@gmail.com", company: "UZC"},
-        {name: "Usame", surname: "OZ", phone: "5532704508", email: "usameoz@gmail.com", company: "BINO"}
+        {name: "Sena", surname: "OZ", phone: "5051234567", email: "tazeyta@gmail.com", company: "UZC"},
+        {name: "Usame", surname: "OZ", phone: "5531234567", email: "usameoz@gmail.com", company: "BINO"}
     ]);
 
     return(
