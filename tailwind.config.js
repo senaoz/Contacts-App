@@ -10,7 +10,7 @@ module.exports = {
     styled: true,
     base: true,
     utils: true,
-    themes: true,
+    themes: "light",
     logs: true,
     rtl: false,
     prefix: "",

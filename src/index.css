@@ -6,10 +6,14 @@
     @apply rounded;
 }
 
+.table {
+    @apply rounded;
+}
+
 .formInput {
-    @apply input rounded w-full max-w-sm block my-2 bg-accent-content;
+    @apply input rounded w-full max-w-sm block my-2 input-bordered input-accent;
 }
 
 body {
-    @apply rounded-lg m-32 p-10 border-2 border-gray-800;
+    @apply rounded-lg m-32 p-10 border-2 border-gray-800 dark:border-gray-500;
 }
