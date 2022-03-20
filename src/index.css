@@ -2,10 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+.btn {
+    @apply rounded;
+}
+
+.formInput {
+    @apply input rounded w-full max-w-sm block my-2 bg-accent-content;
+}
 
 body {
-    margin: 6em;
-    padding: 3em;
-    border: black solid 2px;
-    border-radius: 10px;
+    @apply rounded-lg m-32 p-10 border-2 border-gray-800;
 }

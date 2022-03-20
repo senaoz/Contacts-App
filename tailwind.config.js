@@ -5,10 +5,15 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [
-      require("@tailwindcss/typography"), require("daisyui")
-  ],
+  plugins: [require("@tailwindcss/typography"), require("daisyui")],
   daisyui: {
-    themes: ["bumblebee", "emerald", "night", "winter"],
-  },
+    styled: true,
+    base: true,
+    utils: true,
+    themes: true,
+    logs: true,
+    rtl: false,
+    prefix: "",
+    darkTheme: "dark",
+  }
 }

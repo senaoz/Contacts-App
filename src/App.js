@@ -1,7 +1,9 @@
+import Contacts from "./Components/Contacts";
+
 export default function App() {
   return (
-      <div className="prose">
-          <h1></h1>
-      </div>
-  )
+      <section className="prose">
+          <Contacts />
+      </section>
+  );
 }
