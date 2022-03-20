@@ -40,21 +40,7 @@ export default function Contacts(){
         {  name:"Ernie", surname:"Stenseth", phone:"201-387-9093", email:"ernie_stenseth@aol.com", company:"Knwz Newsradio" },
         {  name:"Albina", surname:"Glick", phone:"732-782-6701", email:"albina@glick.com", company:"Giampetro, Anthony D" },
         {  name:"Alishia", surname:"Sergi", phone:"212-753-2740", email:"asergi@gmail.com", company:"Milford Enterprises Inc" },
-        {  name:"Solange", surname:"Shinko", phone:"504-265-8174", email:"solange@shinko.com", company:"Mosocco, Ronald A" },
-        {  name:"Jose", surname:"Stockham", phone:"212-569-4233", email:"jose@yahoo.com", company:"Tri State Refueler Co" },
-        {  name:"Rozella", surname:"Ostrosky", phone:"805-609-1531", email:"rozella.ostrosky@ostrosky.com", company:"Parkway Company" },
-        {  name:"Valentine", surname:"Gillian", phone:"210-300-6244", email:"valentine_gillian@gmail.com", company:"Fbs Business Finance" },
-        {  name:"Kati", surname:"Rulapaugh", phone:"785-219-7724", email:"kati.rulapaugh@hotmail.com", company:"Eder Assocs Consltng Engrs Pc" },
-        {  name:"Youlanda", surname:"Schemmer", phone:"541-993-2611", email:"youlanda@aol.com", company:"Tri M Tool Inc" },
-        {  name:"Dyan", surname:"Oldroyd", phone:"913-645-8918", email:"doldroyd@aol.com", company:"International Eyelets Inc" },
-        {  name:"Roxane", surname:"Campain", phone:"907-335-6568", email:"roxane@hotmail.com", company:"Rapid Trading Intl" },
-        {  name:"Lavera", surname:"Perin", phone:"305-995-2078", email:"lperin@perin.org", company:"Abc Enterprises Inc" },
-        {  name:"Erick", surname:"Ferencz", phone:"907-227-6777", email:"erick.ferencz@aol.com", company:"Cindy Turner Associates" },
-        {  name:"Fatima", surname:"Saylors", phone:"952-479-2375", email:"fsaylors@saylors.org", company:"Stanton, James D Esq" },
-        {  name:"Jina", surname:"Briddick", phone:"617-997-5771", email:"jina_briddick@briddick.com", company:"Grace Pastries Inc" },
-        {  name:"Kanisha", surname:"Waycott", phone:"323-315-7314", email:"kanisha_waycott@yahoo.com", company:"Schroer, Gene E Esq" },
-        {  name:"Emerson", surname:"Bowley", phone:"608-658-7940", email:"emerson.bowley@bowley.org", company:"Knights Inn" },
-        {  name:"Blair", surname:"Malet", phone:"215-794-4519", email:"bmalet@yahoo.com", company:"Bollinger Mach Shp & Shipyard" }
+        {  name:"Solange", surname:"Shinko", phone:"504-265-8174", email:"solange@shinko.com", company:"Mosocco, Ronald A" }
     ]);
 
     return(
