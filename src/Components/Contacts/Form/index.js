@@ -37,7 +37,7 @@ export default function Form( {addContact, contacts} ){
     }
 
     return(
-        <form onSubmit={onSubmit}>
+        <form className="lg:w-1/2 lg:mr-9" onSubmit={onSubmit}>
             <h2>Form</h2>
             <input className="formInput"
                    name="name"

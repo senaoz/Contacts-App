@@ -6,14 +6,19 @@
     @apply rounded;
 }
 
+.prose {
+    min-width: 100%;
+}
+
+
+.formInput {
+    @apply input rounded w-full block my-2 bg-gray-100 dark:bg-gray-700;
+}
+
 .table {
     @apply rounded;
 }
 
-.formInput {
-    @apply input rounded w-full max-w-sm block my-2 input-bordered input-accent;
-}
-
 body {
-    @apply rounded-lg m-32 p-10 border-2 border-gray-800 dark:border-gray-500;
+    @apply rounded-lg m-6 p-5 xl:m-32 xl:p-10 md:m-14 md:p-8 border-2 border-gray-800 dark:border-gray-500;
 }

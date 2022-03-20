@@ -1,9 +1,30 @@
+import {useState} from "react";
 
-export default function List( {contacts} ){
+export default function List({ contacts }){
+
+    const [filter, setFilter] = useState('');
+
+    const filtered = contacts.filter((item) => {
+        return Object.keys(item).some( (key) =>
+            item[key]
+                .toString()
+                .toLowerCase()
+                .includes(filter.toLocaleLowerCase())
+        )
+    });
+
+    console.log('filtered', filtered)
+
     return(
-        <>
+        <div className="xl:w-1/2 xl:ml-9">
             <h2>Contact List</h2>
-            <table className="table table-compact w-full">
+            <input type="text"
+                   value={filter}
+                   onChange={ (e) => setFilter(e.target.value) }
+                   placeholder='Filter contacts'
+                   class="input input-bordered input-sm w-full"/>
+            <section className="overflow-x-auto">
+            <table className="table table-compact">
                     <thead>
                     <tr key='0'>
                         <th></th>
@@ -16,7 +37,7 @@ export default function List( {contacts} ){
                     </thead>
                     <tbody>
                     {
-                        contacts.map((contact, index) => (
+                        filtered.map((contact, index) => (
                             <tr key={index+1}>
                                 <th>{index+1}</th>
                                 <td>{contact.name}</td>
@@ -29,6 +50,7 @@ export default function List( {contacts} ){
                     }
                     </tbody>
                 </table>
-        </>
+            </section>
+        </div>
     );
 }
