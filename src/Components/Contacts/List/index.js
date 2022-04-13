@@ -13,8 +13,6 @@ export default function List({ contacts }){
         )
     });
 
-    console.log('filtered', filtered)
-
     return(
         <div className="xl:w-1/2 xl:ml-9">
             <h2>Contact List</h2>
